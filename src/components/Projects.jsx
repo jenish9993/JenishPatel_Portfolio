@@ -105,6 +105,31 @@ export const Projects = () => {
                         <span>Socket.io</span>
                     </div>
                 </motion.div>
+
+                <motion.div
+                    className="project-card"
+                    variants={fadeInUp}
+                    whileHover={{ y: -10, transition: { duration: 0.2 } }}
+                >
+                    <motion.div
+                        className="project-image"
+                        style={{
+                            backgroundImage: "url('/projects/JsonViewer.png')",
+                        }}
+                        whileHover={{ scale: 1.05 }}
+                        transition={{ duration: 0.2 }}
+                    />
+                    <h3>JSON Viewer</h3>
+                    <p>
+                        A modern, developer-friendly JSON Viewer that lets you paste, explore, and visualize JSON data with a clean input–output layout.
+                        It supports recursive tree view, syntax highlighting, and one-click copy for fast and efficient debugging.
+
+                    </p>
+                    <div className="project-tech">
+                        <span>React</span>
+                        <span>CoreJS Function</span>
+                    </div>
+                </motion.div>
             </motion.div>
         </motion.section>
     );

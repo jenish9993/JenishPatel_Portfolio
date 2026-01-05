@@ -75,7 +75,7 @@ export const Hero = () => {
             <motion.a href="https://github.com/jenish9993" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
-            <motion.a href="https://www.linkedin.com/in/jenishpatel9993" target="_blank">
+            <motion.a href="https://www.linkedin.com/in/jenishpatel09" target="_blank">
               <i className="fab fa-linkedin"> </i>
             </motion.a>
             {/* <motion.a href="https://twitter.com" target="_blank">
