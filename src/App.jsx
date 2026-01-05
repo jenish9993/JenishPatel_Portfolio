@@ -30,7 +30,7 @@ function App() {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <p> &copy; 2025 Jenish Patel. All rights reserved.</p>
+        <p> &copy; {new Date().getFullYear()} Jenish Patel. All rights reserved.</p>
       </motion.footer>
     </div>
   );
